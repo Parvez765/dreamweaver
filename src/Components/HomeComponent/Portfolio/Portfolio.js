@@ -8,7 +8,7 @@ import "./Portfolio.css"
 const Portfolio = () => {
     return (
         <div className='bg-slate-950 p-10'>
-           <div className='container mx-auto'>
+           <div className='container mx-auto mt-[20px]'>
             <div className='flex  flex-col justify-center lg:flex-row gap-[40px]'>
                     <div>
                         <div className='text-white'>

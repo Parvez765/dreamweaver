@@ -8,7 +8,7 @@ const FeaturedProjects = () => {
     return (
         <div className='bg-slate-950 p-10'>
            <div className='container mx-auto'>
-               <h1 className='text-white text-[30px] lg:text-[40px] mt-[20px] mb-[30px]'>FEATURED PROJECTS</h1>
+               <h1 className='text-white text-[30px] lg:text-[40px] mb-[30px]'>FEATURED PROJECTS</h1>
                <div className='grid  grid-cols-1 lg:grid-cols-2 gap-[40px]'>
                     <div>
                         <img src={imageOne} alt="DreamWeaver Featured Gallery" className='imgOne'/>
