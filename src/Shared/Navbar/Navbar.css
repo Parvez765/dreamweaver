@@ -1,0 +1,10 @@
+.navContainer{
+    position: relative;
+    z-index: 1000;
+    color: white;
+}
+.whiteBackground{
+    position: absolute;
+    margin-top: 0px;
+    width: 100%;
+}

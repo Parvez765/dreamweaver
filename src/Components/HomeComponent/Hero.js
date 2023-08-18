@@ -14,14 +14,13 @@ import 'swiper/css/autoplay';
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Autoplay]);
 
 const Hero = () => {
+    
     return (
-        <div>
-            <Swiper
+        <div className='-mt-[180px] lg:-mt-[140px] heroSection'>
+           <div className='heroContainer'>
+           <Swiper
                 spaceBetween={50}
                 slidesPerView={1}
-                // pagination={{ clickable: true }}
-                onSwiper={(swiper) => console.log(swiper)}
-                onSlideChange={() => console.log('slide change')}
                 autoplay={{ delay: 2000, disableOnInteraction: false }}
             >
                 <SwiperSlide>
@@ -40,6 +39,7 @@ const Hero = () => {
                     </div>
                 </SwiperSlide>
             </Swiper>
+           </div>
             
         </div>
     );
