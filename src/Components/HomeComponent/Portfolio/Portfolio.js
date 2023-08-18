@@ -30,7 +30,7 @@ const Portfolio = () => {
                             <div className='mt-[15px] lg:mt-[30px] mb-[20px] lg:mb-[0px]'><button className='viewBtn'>View Gallery</button></div>
                        </div>
                        <div>
-                        <img src={fourthImage} alt="Dream Weaver Portfolio" className='-mt-[40px] lg:mt-[0px] lg:w-[400px] lg:h-[450px] secondImage'/>
+                        <img src={fourthImage} alt="Dream Weaver Portfolio" className='-mt-[40px] lg:-mt-[40px] lg:w-[400px] lg:h-[450px] secondImage'/>
                       
                     </div>
                     </div>
