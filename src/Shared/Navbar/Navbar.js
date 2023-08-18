@@ -69,7 +69,7 @@ const Navbar = () => {
                 </div>
             </div>
             {
-                show && <div className='bg-slate-900 h-[100vh] block lg:hidden whiteBackground'>
+                show && <div className='bg-slate-900 h-[80vh] block lg:hidden whiteBackground'>
                     <p className='text-white mt-[50px] mb-[30px]'>HOME</p>
                     <hr className='w-[300px] block mx-auto -mt-[10px] mb-[10px]'></hr>
                     <p className='text-white  mb-[30px]'>ABOUT</p>
