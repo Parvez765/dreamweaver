@@ -20,7 +20,7 @@ const Portfolio = () => {
                         </div>
                     </div>
                     <div>
-                        <img src={secondImage} alt="Dream Weaver Portfolio" className='mb-[40px] lg:w-[650px] lg:h-[450px] secondImage'/>
+                        <img src={secondImage} alt="Dream Weaver Portfolio" className='mb-[40px] lg:w-[550px] lg:h-[450px] secondImage'/>
                         <img src={thirdImage} alt="Dream Weaver Portfolio" className='mb-[40px] lg:w-[550px] lg:h-[450px] secondImage'/>
                     </div>
                     <div className='flex flex-col-reverse lg:flex-col justify-around'>
@@ -30,7 +30,7 @@ const Portfolio = () => {
                             <div className='mt-[15px] lg:mt-[30px] mb-[20px] lg:mb-[0px]'><button className='viewBtn'>View Gallery</button></div>
                        </div>
                        <div>
-                        <img src={fourthImage} alt="Dream Weaver Portfolio" className='-mt-[40px] lg:mt-[130px] lg:w-[400px] lg:h-[450px] secondImage'/>
+                        <img src={fourthImage} alt="Dream Weaver Portfolio" className='-mt-[40px] lg:mt-[0px] lg:w-[400px] lg:h-[450px] secondImage'/>
                       
                     </div>
                     </div>
