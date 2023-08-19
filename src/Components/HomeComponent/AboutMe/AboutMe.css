@@ -1,0 +1,12 @@
+.readMore{
+    border: 1px solid white;
+    padding: 20px 80px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+    font-weight: 600;
+    font-size: 20px;
+}
+.readMore:hover{
+    background-color: white;
+    color: black;
+}
