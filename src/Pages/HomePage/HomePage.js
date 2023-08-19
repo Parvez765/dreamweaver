@@ -3,6 +3,8 @@ import Hero from '../../Components/HomeComponent/Hero';
 import Portfolio from '../../Components/HomeComponent/Portfolio/Portfolio';
 import FeaturedProjects from '../../Components/HomeComponent/FeaturedProjects/FeaturedProjects';
 import AboutMe from '../../Components/HomeComponent/AboutMe/AboutMe';
+import HireMe from '../../Components/HomeComponent/HireMe/HireMe';
+
 
 const HomePage = () => {
     return (
@@ -11,6 +13,7 @@ const HomePage = () => {
             <Portfolio/>
             <FeaturedProjects/>
             <AboutMe/>
+            <HireMe/>
         </div>
     );
 };

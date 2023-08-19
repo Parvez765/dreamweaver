@@ -1,0 +1,13 @@
+.hireMeContainer{
+    background-image: url(../../../assets/HireMe//FineArt.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+}
+.hireMeParagraph{
+    background-color: rgb(74, 74, 74);
+    transition: 0.3s ease;
+}
+.hireMeParagraph:hover{
+    background-color: rgb(119, 119, 119);
+    
+}
