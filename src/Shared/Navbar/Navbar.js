@@ -15,11 +15,11 @@ const Navbar = () => {
     return (
         <div className='container mx-auto navContainer'>
             {/* Large Device */}
-            <div className='flex justify-between items-center'>
+            <div className='flex gap-[140px] justify-center items-center'>
                 <div className='hidden lg:block'>
-                    <div className='flex gap-[140px] text-[20px] mt-[60px]'>
+                    <div className='flex gap-[70px] text-[20px] mt-[60px]'>
                         <p>HOME</p>
-                        <p>ABOUT</p>
+                        <p>PORTFOLIO</p>
                     </div>
                 </div>
                 {
@@ -62,8 +62,8 @@ const Navbar = () => {
                         </div>
                 }
                 <div className='hidden lg:block'>
-                    <div className='flex gap-[140px] text-[20px] mt-[60px]'>
-                        <p>PORTFOLIO</p>
+                    <div className='flex gap-[70px] text-[20px] mt-[60px]'>
+                        <p>FATURED PROJECTS</p>
                         <p>CONTACT</p>
                     </div>
                 </div>

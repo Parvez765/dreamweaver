@@ -4,6 +4,7 @@ import Portfolio from '../../Components/HomeComponent/Portfolio/Portfolio';
 import FeaturedProjects from '../../Components/HomeComponent/FeaturedProjects/FeaturedProjects';
 import AboutMe from '../../Components/HomeComponent/AboutMe/AboutMe';
 import HireMe from '../../Components/HomeComponent/HireMe/HireMe';
+import LatestLove from '../../Components/HomeComponent/LatestLove/LatestLove';
 
 
 const HomePage = () => {
@@ -14,6 +15,7 @@ const HomePage = () => {
             <FeaturedProjects/>
             <AboutMe/>
             <HireMe/>
+            <LatestLove/>
         </div>
     );
 };
