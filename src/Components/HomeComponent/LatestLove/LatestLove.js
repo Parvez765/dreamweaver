@@ -3,9 +3,9 @@ import latestdata from "../../../data/latestData"
 
 const LatestLove = () => {
     return (
-        <div className='bg-black p-10'>
+        <div className='bg-black'>
             <div className='container mx-auto'>
-                <h1 className='text-white mt-[70px] text-[30px] lg:text-[40px] mb-[30px]'>Latest Love On Facebook And Instagram</h1>
+                <h1 className='text-white mt-[100px] text-[30px] lg:text-[40px] mb-[30px]'>Latest Love On Facebook And Instagram</h1>
                 <div className='grid lg:grid-cols-6 gap-[15px]'>
                   {
                     latestdata?.map(lData => <div>
