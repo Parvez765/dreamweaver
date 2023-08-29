@@ -1,0 +1,25 @@
+.inputField{
+    background-color: transparent;
+    border: 1px solid white;
+}
+::placeholder{
+    caret-color: white;
+}
+input{
+    padding: 15px;
+}
+.glowing-input:focus {
+    box-shadow: 0 0 30px 3px rgba(255, 255, 255, 0.5);
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1); 
+}
+input[type="time"]::-webkit-calendar-picker-indicator {
+    filter: invert(1); 
+}
+.submitButton{
+    background-color: white;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: 500;
+}

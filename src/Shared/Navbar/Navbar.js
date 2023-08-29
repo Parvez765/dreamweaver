@@ -66,7 +66,7 @@ const Navbar = () => {
                 <div className='hidden lg:block'>
                     <div className='flex gap-[70px] text-[20px] mt-[60px]'>
                         <p>FATURED PROJECTS</p>
-                        <p>CONTACT</p>
+                       <Link to="/contact"><p>CONTACT</p></Link>
                     </div>
                 </div>
             </div>
@@ -78,7 +78,7 @@ const Navbar = () => {
                     <hr className='w-[300px] block mx-auto -mt-[10px] mb-[10px]'></hr>
                     <p className='text-white  mb-[30px]'>PORTFOLIO</p>
                     <hr className='w-[300px] block mx-auto -mt-[10px] mb-[10px]'></hr>
-                    <p className='text-white  mb-[30px]'>CONTACT</p>
+                    <Link to='/contact'><p className='text-white  mb-[30px]'>CONTACT</p></Link>
                 </div>
             }
         </div>
