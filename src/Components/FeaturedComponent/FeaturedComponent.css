@@ -1,4 +1,14 @@
+.projectImage{
+   position: relative;
+   cursor: pointer;
+}
 .projectImage:hover{
    opacity: 0.4;
-   transition: 0.5s ease-in-out;
+   transition: 0.3s ease-in-out;
+}
+.projectText{
+   position: relative;
+   top: -500px;
+   color: white;
+   z-index: 1000;
 }

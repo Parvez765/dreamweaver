@@ -1,3 +1,4 @@
+import SingleFeaturedComponent from "../Components/SingleFeaturedComponent/SingleFeaturedComponent";
 import Main from "../Layout/Main";
 import AboutPage from "../Pages/AboutPage/About";
 import ContactPage from "../Pages/ContactPage/ContactPage";
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
             },
             {
                 path : "/featured", element : <FeaturedPage/>
+            },
+            {
+                path : "/featured/:id",
+                element : <SingleFeaturedComponent/>
             }
         ]
     }
