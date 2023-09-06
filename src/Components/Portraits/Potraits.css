@@ -1,0 +1,21 @@
+.portaitesImage{
+    background-image: url(../../assets/Potraites/Villa.jpg);
+    height: 150vh !important;
+    background-repeat: no-repeat;
+}
+.imageText{
+    font-size: 100px;
+    font-weight: 700;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding: 100px;
+}
+.imageTexts{
+    font-size: 100px;
+    font-weight: 700;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding: 100px;
+}

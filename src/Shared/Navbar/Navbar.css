@@ -8,3 +8,14 @@
     margin-top: 0px;
     width: 100%;
 }
+.navbarLink{
+    position: relative;
+}
+.subLink{
+    position: absolute;
+    background: white;
+    padding: 10px 20px;
+    color: black;
+    border-radius: 8px;
+    text-align: left;
+}

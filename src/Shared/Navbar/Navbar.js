@@ -13,6 +13,14 @@ const Navbar = () => {
     }
     // console.log(show);
 
+    const [showSubOptions, setShowSubOptions] = useState(false);
+
+    const handleOut = () => {
+       setTimeout(()=> {
+        setShowSubOptions(false)
+       }, 1200)
+    }
+
     return (
         <div className='container mx-auto navContainer'>
             {/* Large Device */}
@@ -20,8 +28,19 @@ const Navbar = () => {
                 <div className='hidden lg:block'>
                     <div className='flex gap-[70px] text-[20px] mt-[60px]'>
                        <Link to ="/"><p>HOME</p></Link>
-                       <Link to="/about"><p>About</p></Link>
-                        <p>PORTFOLIO</p>
+                       <Link to="/about"><p>ABOUT</p></Link>
+                        <ul>
+                             <Link onMouseEnter={() => setShowSubOptions(true)}
+                            onMouseLeave={handleOut}><p className='navbarLink'>PORTFOLIO</p></Link>
+                            {
+                                showSubOptions &&  <div className='subLink cursor-pointer'>
+                                <Link to="/portrait"><li>Portraits</li></Link>
+                                <Link to="/couple"><li>Couples</li></Link>
+                                <Link to="/moment"><li>Moments</li></Link>
+                             </div> 
+                            }
+                           
+                       </ul>
                     </div>
                 </div>
                 {
@@ -76,7 +95,19 @@ const Navbar = () => {
                     <hr className='w-[300px] block mx-auto -mt-[10px] mb-[10px]'></hr>
                     <Link to="/about"><p className='text-white  mb-[30px]'>ABOUT</p></Link>
                     <hr className='w-[300px] block mx-auto -mt-[10px] mb-[10px]'></hr>
-                    <p className='text-white  mb-[30px]'>PORTFOLIO</p>
+                   {/* <Link to="/portfolio"><p className=''>PORTFOLIO</p></Link> */}
+                   <ul>
+                             <Link onMouseEnter={() => setShowSubOptions(true)}
+                            onMouseLeave={handleOut}><p className='navbarLink text-white  mb-[30px]'>PORTFOLIO</p></Link>
+                            {
+                                showSubOptions &&  <div className='subLink cursor-pointer text-white'>
+                                <Link to="/portrait"><li>Portraits</li></Link>
+                                <Link to="/couple"><li>Couples</li></Link>
+                                <Link to="/moment"><li>Moments</li></Link>
+                             </div> 
+                            }
+                           
+                       </ul>
                     <hr className='w-[300px] block mx-auto -mt-[10px] mb-[10px]'></hr>
                     <Link to="/featured"><p className='text-white  mb-[30px]'>FEATURED PROJECTS</p></Link>
                     <hr className='w-[300px] block mx-auto -mt-[10px] mb-[10px]'></hr>

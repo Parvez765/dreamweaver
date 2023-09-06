@@ -1,6 +1,7 @@
 import React from 'react';
 import "./AboutMe.css"
 import myImage from "../../../assets/AboutMe/myImage.jpg"
+import { Link } from 'react-router-dom';
 
 const AboutMe = () => {
     return (
@@ -13,7 +14,7 @@ const AboutMe = () => {
                     <div className='text-white'>
                         <h1 className='text-[60px] font-semibold'>Hi, I'm Sayeed Ishtiaque</h1>
                         <p className='text-[20px] text-justify mt-[50px]'>As a professionally trained photographer and creative visual artist, my job of telling the most beautiful love stories brings me so much fulfillment and joy. I’m hard-working, yet light-hearted. I love music, movies and most of all, my adorable family. I’m powered by Intelligentsia coffee, green juices filled with crazy superfood concoctions and the thrill of my last mountain bike ride. I love luminous light, beautiful architecture and couples who are deeply in love and who care about creating a magical experience for their wedding day.</p>
-                       <div className='flex items-start mt-[50px]'><button className='readMore'>Read More</button></div>
+                       <Link to="/about"><div className='flex items-start mt-[50px]'><button className='readMore'>Read More</button></div></Link>
                     </div>
                 </div>
             </div>
